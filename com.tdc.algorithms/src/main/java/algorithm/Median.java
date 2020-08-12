@@ -6,10 +6,6 @@ import java.util.List;
 
 public class Median {
 
-	public Median() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public  double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
 		List<Integer> mergedList = new ArrayList<Integer>();
 		if (!a.isEmpty()) {
